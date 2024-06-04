@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="acdd7c2e-a7a7-4b71-af1c-8eab95c140e2" extendedConfigurationObject="f7bf7dcd-f741-4b4b-918b-b34d0126d672">
+  <producedTypes>
+    <objectType typeId="d5d7b1bb-aedf-4642-ae6a-327988b97b2d" valueTypeId="472159d7-4c55-4226-837e-c2695d9608ab"/>
+    <refType typeId="945e083a-6dcc-41ce-9089-e56a587accfa" valueTypeId="644a8482-9a16-423b-8eeb-a63dd202a3fd"/>
+    <selectionType typeId="75f59117-ee58-4d10-9d9d-a767817dd1cc" valueTypeId="ff9e42dc-06d6-4f1d-924b-2c11199581a3"/>
+    <listType typeId="d66e25cd-3a7a-4d24-9474-ba5fee228055" valueTypeId="bfd77fcd-87f2-4a7b-894a-08c0cc873459"/>
+    <managerType typeId="c024ee66-183b-4900-91de-d28bc1a884f3" valueTypeId="47a66b27-4d59-4c71-9366-29992fed0b62"/>
+  </producedTypes>
+  <name>ВидыНагрузки</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:Catalog>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3c109f7b-6e62-4594-ba60-4551dfcf32d8">
+  <name>оас_ТипыДанных_String</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы данных String</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>

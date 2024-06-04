@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="28a2a4bd-0101-43ac-8b3e-a04dcccefbec">
+  <producedTypes>
+    <objectType typeId="9586c008-7009-44ba-8e28-d1e0a0ac6c5b" valueTypeId="13918734-db18-4a6e-a1bb-8afebc310092"/>
+    <managerType typeId="939c9625-4b9a-4c21-8ebd-027bef6ae5e1" valueTypeId="5a4a6edc-ba33-415d-952a-a727b7acb043"/>
+  </producedTypes>
+  <name>stdl_ReadPracticeKindById</name>
+  <synonym>
+    <key>ru</key>
+    <value>Read PracticeKind by ID</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:DataProcessor>

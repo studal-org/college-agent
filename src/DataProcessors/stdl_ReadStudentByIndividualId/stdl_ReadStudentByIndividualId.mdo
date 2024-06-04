@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="97d644e6-9ff4-4381-ac63-260b4d27077b">
+  <producedTypes>
+    <objectType typeId="9740b113-8be4-437d-8676-f7a8ed433ee0" valueTypeId="81fdba5c-391b-4cbc-bff2-833c26af5028"/>
+    <managerType typeId="4d1ec4ab-ec98-4e98-b5c8-a177a6603a20" valueTypeId="e5853cd5-1e98-42cb-b92b-88229ce4fb8c"/>
+  </producedTypes>
+  <name>stdl_ReadStudentByIndividualId</name>
+  <synonym>
+    <key>ru</key>
+    <value>Read Student by Individual ID</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:DataProcessor>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="ed3d8b6e-7647-4123-b92f-df9eb31edcf8" extendedConfigurationObject="316b7e7e-349f-4bca-bb48-388f794bd5f6">
+  <producedTypes>
+    <objectType typeId="0e647aeb-a5c8-4c10-9ab4-02ac781c98f1" valueTypeId="95fe6d17-b38b-4d7b-a13d-6b73407694db"/>
+    <refType typeId="141521dd-ccc1-42be-9a15-5eaef1e00dad" valueTypeId="9d1f2f2c-703e-43ac-9df6-af2410e7f805"/>
+    <selectionType typeId="a28e55b1-a730-492d-97c4-b2264138be85" valueTypeId="564d103f-9232-4a59-9730-2186e70d6781"/>
+    <listType typeId="3cc562e8-b7aa-4a05-9db1-78804b856755" valueTypeId="3f2b6b46-fcb3-4c4d-95b8-c00b58bbdde7"/>
+    <managerType typeId="711018d2-321f-476f-8382-9a93b1e893ec" valueTypeId="3c005eca-9ff4-432f-a34f-c1b2a59190d7"/>
+  </producedTypes>
+  <name>ТипыОценок</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+  <attributes uuid="84f63162-3985-4576-9a4e-2af250ab1e8c" extendedConfigurationObject="28dd3f65-892f-436a-b772-64df43d5ecae">
+    <name>ЦифроваяШкала</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="5f51dc9f-4e3c-48dd-afb9-4086aec0de72" extendedConfigurationObject="8f51f737-e8f4-4ef1-b4eb-9ab8b7b6ebb3">
+    <name>НеудовлетворительноНижнийПредел</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>5</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Catalog>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="113d02f6-7d11-4def-8e38-ac6dc5bb037d">
+  <producedTypes>
+    <objectType typeId="fb0a74f0-f0a9-42ca-aa4a-738b0e5599ff" valueTypeId="41eb77ae-780b-4e33-9c39-9f74007771d9"/>
+    <managerType typeId="afb02672-d47a-4a52-82e7-692fa7452eca" valueTypeId="a5a9629b-4ef7-4da4-94d0-5aa01717f764"/>
+  </producedTypes>
+  <name>оас_УправлениеСервисами</name>
+  <synonym>
+    <key>ru</key>
+    <value>ОАС. Управление сервисами</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.оас_УправлениеСервисами.Form.Форма</defaultForm>
+  <forms uuid="b02f926f-8684-428d-b197-03b78234421b">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e4ab60ec-bbb9-4eed-91fc-08cdd3a1b195">
+    <name>ШаблонМодуляОбработчика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон модуля обработчика</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ec7db429-a8f6-4afe-8b16-49190a81d40c">
+  <name>оас_Контекст</name>
+  <synonym>
+    <key></key>
+    <value>Оас контекст</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Оас контекст</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>

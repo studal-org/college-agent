@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e44a5112-5490-4524-87f6-319de572bff7">
+  <producedTypes>
+    <objectType typeId="469a4eed-a8bc-40e1-986d-2d61b43fcc43" valueTypeId="0d6afffa-456e-471a-b6e2-c0c458755b46"/>
+    <managerType typeId="03fc1a90-f60d-4d28-8b85-48f200241436" valueTypeId="1c780e0d-cd39-48d7-993d-7b7ac7a30e44"/>
+  </producedTypes>
+  <name>stdl_ReadEmployeeById</name>
+  <synonym>
+    <key>ru</key>
+    <value>Read Employee by ID</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:DataProcessor>

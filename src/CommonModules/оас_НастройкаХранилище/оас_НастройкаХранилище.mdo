@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="61153ec1-f5eb-4503-827b-bf0604739f2b">
+  <name>оас_НастройкаХранилище</name>
+  <synonym>
+    <key></key>
+    <value>Оас настройка хранилище</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>

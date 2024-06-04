@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1453b429-96eb-4cc1-a49a-9dbca4fa7c9a">
+  <producedTypes>
+    <objectType typeId="c8973f79-ef8c-4d96-a9a8-1ed74aa6c657" valueTypeId="79bbf887-711f-4331-b3db-059bce5067cd"/>
+    <managerType typeId="b2ebf1b0-b071-49b5-9ee0-f544b9154355" valueTypeId="7e014604-4647-4603-8b36-09dac6e5effe"/>
+  </producedTypes>
+  <name>stdl_ReadPeriodsScheduleById</name>
+  <synonym>
+    <key>ru</key>
+    <value>Read PeriodsSchedule by ID</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:DataProcessor>

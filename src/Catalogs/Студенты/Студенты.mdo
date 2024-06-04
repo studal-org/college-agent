@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="9d180a9b-1eb7-48f5-900b-2f12482fc63a" extendedConfigurationObject="99722719-c14a-46da-a21b-da4895faf0f6">
+  <producedTypes>
+    <objectType typeId="f5e0bc1c-5f2d-4aa3-802f-4cbc8c281791" valueTypeId="25e154c7-07eb-495d-944c-c4d4e25d52e8"/>
+    <refType typeId="a80bfa4c-d28c-4ad1-8ad0-5e5483e06f69" valueTypeId="d32541f6-24d3-4b42-8dad-593805a63645"/>
+    <selectionType typeId="4b3f1ade-6ac0-4fa9-8365-d8f3b8fbb26b" valueTypeId="85e22546-ecf7-43fe-9e40-fd1720a7cf39"/>
+    <listType typeId="b788d1b1-398b-42a4-93e0-0283d5c02dfd" valueTypeId="5231593a-ff13-4713-b429-5c5803e3c2e9"/>
+    <managerType typeId="fc71af40-2ee1-4bff-9a54-ca1c19ae59cd" valueTypeId="0c2f20df-3391-44ac-a2f7-d8d442e5c3e2"/>
+  </producedTypes>
+  <name>Студенты</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+  <attributes uuid="a8ada26e-0dea-4f96-be3f-eda18507751e" extendedConfigurationObject="bc0e780a-465b-42fc-9abd-4bfc43043708">
+    <name>ФизЛицо</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.ФизическиеЛица</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Catalog>

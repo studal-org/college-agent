@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0a192e79-1eab-44fe-bcef-87a28ac27292">
+  <name>оас_ПараметрРазмещение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оас параметр размещение</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>

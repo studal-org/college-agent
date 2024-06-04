@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c2411c99-86a7-4d7a-848c-ef5b5aa1408e">
+  <name>оас_СервисыПоСпецификациям</name>
+  <synonym>
+    <key></key>
+    <value>Оас сервисы по спецификациям</value>
+  </synonym>
+  <content>CommonModule.оас_ВстроенныйЯзык</content>
+  <content>CommonModule.оас_Контекст</content>
+  <content>CommonModule.оас_МетодСловарь</content>
+  <content>CommonModule.оас_Настройка</content>
+  <content>CommonModule.оас_НастройкаПовтИсп</content>
+  <content>CommonModule.оас_НастройкаСвойство</content>
+  <content>CommonModule.оас_Параметр</content>
+  <content>CommonModule.оас_ПараметрРазмещение</content>
+  <content>CommonModule.оас_Подсистема</content>
+  <content>CommonModule.оас_Ресурс</content>
+  <content>CommonModule.оас_Сервис</content>
+  <content>CommonModule.оас_СервисПовтИсп</content>
+  <content>CommonModule.оас_Спецификация</content>
+  <content>CommonModule.оас_Справка</content>
+  <content>CommonModule.оас_СправкаАдаптер</content>
+  <content>CommonModule.оас_Тело</content>
+  <content>CommonModule.оас_Тип</content>
+  <content>CommonTemplate.оас_LICENSE</content>
+  <content>CommonTemplate.оас_rapidoc_min_js</content>
+  <content>DataProcessor.оас_АдаптерСправка</content>
+  <content>DataProcessor.оас_НастройкиХранилищеСистемныхНастроек</content>
+  <content>DataProcessor.оас_ОбработчикШаблон</content>
+  <content>DataProcessor.оас_СобытияОбработкиЗапроса</content>
+  <content>DataProcessor.оас_УправлениеСервисами</content>
+</mdclass:Subsystem>

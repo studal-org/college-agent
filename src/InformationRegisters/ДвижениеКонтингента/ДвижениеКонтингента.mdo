@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="944ec8d0-3209-4eaf-a99d-2ebb241be249" extendedConfigurationObject="47e8464e-9763-4317-a4ae-4ca6ebcc7602">
+  <producedTypes>
+    <selectionType typeId="b1a0c5a4-66cd-4df0-8048-1a3374b395fd" valueTypeId="10d3235a-d68e-4284-b4c0-6a86856d17dd"/>
+    <listType typeId="078bbceb-35df-47f9-9109-a95128e8326f" valueTypeId="e974f246-aece-4be1-bf3f-9044f2338bc3"/>
+    <managerType typeId="e25dc105-5a49-40b5-81ce-dea9b1d98169" valueTypeId="cbbe5c0b-fc45-4d29-b034-64931403e77b"/>
+    <recordSetType typeId="f0adeb8e-3960-441e-bb34-18eaba4ab608" valueTypeId="add31936-09a1-4d8c-9658-f64f610dcd1e"/>
+    <recordKeyType typeId="9b8f204e-60db-452a-a880-65ea90307385" valueTypeId="22f13387-3a3e-454e-a2f3-cf82318f6036"/>
+    <recordType typeId="3d4ebc75-2fdb-430d-a369-ed2345e49664" valueTypeId="d2ec5e19-a977-445c-8f6a-f7d982151fc2"/>
+    <recordManagerType typeId="fd2b7e5b-8266-4368-b188-72aac1d29713" valueTypeId="4883d3bf-f8a2-422d-940f-342036063c01"/>
+  </producedTypes>
+  <name>ДвижениеКонтингента</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <resources uuid="535d4bba-57c0-4af5-b47d-f523da1e2017" extendedConfigurationObject="9ea5ce08-4d4b-499b-9408-67a197d2f908">
+    <name>Статус</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>EnumRef.СтатусыСтудентов</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </resources>
+  <resources uuid="dfb5a146-1140-4323-994f-5e678c0eb966" extendedConfigurationObject="5eeb9c73-65da-4613-8765-72f500d0a5bc">
+    <name>Группа</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.УчебныеГруппы</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </resources>
+  <dimensions uuid="28976b26-b72c-4648-b4a9-32f5c3bcc671" extendedConfigurationObject="d6b3e324-572e-4f49-af6c-e16c52bc0d94">
+    <name>Студент</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Студенты</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </dimensions>
+</mdclass:InformationRegister>

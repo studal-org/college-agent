@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="796c7a1e-b655-4627-bb74-fb6aae067704" extendedConfigurationObject="69c86d33-9e29-49f5-8667-467b6904ffb9">
+  <producedTypes>
+    <objectType typeId="80780aff-acbe-4f3f-b290-fedf6277a6cf" valueTypeId="7c4e8449-74a0-47bc-90a7-3ce0694b17ab"/>
+    <refType typeId="e96e4015-0eca-4b3d-a512-3e97f2961462" valueTypeId="5c8d709c-28cf-4e81-a147-d111dffb4de4"/>
+    <selectionType typeId="12212697-3a5f-4aee-b3ec-b184e2375b98" valueTypeId="3436cce6-42bb-47be-a466-89ce9ca92efc"/>
+    <listType typeId="85363801-1496-4313-bc05-cf79bb0d6227" valueTypeId="691b6816-df6e-4228-9e5b-a9701432a82f"/>
+    <managerType typeId="b202dbc5-926b-430d-b8c3-be296abcda4e" valueTypeId="1d3a60cc-89d5-4cac-b0da-f744702c2912"/>
+  </producedTypes>
+  <name>РасписанияЗвонков</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <codeLength>Checked</codeLength>
+    <codeAllowedLength>Checked</codeAllowedLength>
+    <descriptionLength>Checked</descriptionLength>
+    <codeType>Checked</codeType>
+    <predefined>Checked</predefined>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+  <codeLength>3</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <predefined>
+    <items id="f0c7b75a-a488-4d9b-a175-f8374de43184">
+      <name>Стандартное</name>
+      <description>Стандартное</description>
+      <extension xsi:type="mdclassExtension:PredefinedItemExtension">
+        <state>AdoptedCheck</state>
+      </extension>
+      <code xsi:type="core:StringValue">
+        <value>001</value>
+      </code>
+    </items>
+  </predefined>
+  <tabularSections uuid="f63552d5-fe43-4473-963b-b1e2cb684575" extendedConfigurationObject="817bfc97-3cdf-4c45-aca3-2fa10e479fe3">
+    <producedTypes>
+      <objectType typeId="f99949dd-7ab6-477f-995f-73bffecef780" valueTypeId="90ac765b-02c6-41f5-a692-4913c7998d74"/>
+      <rowType typeId="a335b079-fb8b-44f0-a389-c34ebae5e395" valueTypeId="99140855-471d-4653-bf3f-fa69c5e4bc20"/>
+    </producedTypes>
+    <name>Расписание</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+    <attributes uuid="e76ced88-004f-42dd-917e-c2d16c2e1a8a" extendedConfigurationObject="5f8f6648-0413-45a2-a10b-ffc3426e7863">
+      <name>НомерПары</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>Number</type>
+          </types>
+          <numberQualifiers>
+            <precision>2</precision>
+            <nonNegative>true</nonNegative>
+          </numberQualifiers>
+        </typeExtension>
+      </extension>
+    </attributes>
+    <attributes uuid="d4aa4081-1f39-46f4-aa80-8b2c5ba2b541" extendedConfigurationObject="73dc70b2-453f-4650-a6ea-fb5fbad2c7d5">
+      <name>ВремяНачала</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>Date</type>
+          </types>
+          <dateQualifiers>
+            <dateFractions>Time</dateFractions>
+          </dateQualifiers>
+        </typeExtension>
+      </extension>
+    </attributes>
+    <attributes uuid="4655f558-41f2-49e0-a397-8886fba2352c" extendedConfigurationObject="133cdcd1-b343-4c28-ab60-3fa521e18573">
+      <name>ВремяОкончания</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>Date</type>
+          </types>
+          <dateQualifiers>
+            <dateFractions>Time</dateFractions>
+          </dateQualifiers>
+        </typeExtension>
+      </extension>
+    </attributes>
+  </tabularSections>
+</mdclass:Catalog>

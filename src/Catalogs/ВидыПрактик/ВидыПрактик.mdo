@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="af505e60-5a00-48b1-b7b5-fca8adb28f28" extendedConfigurationObject="d1101796-12ec-479c-9f03-81971c050344">
+  <producedTypes>
+    <objectType typeId="9c601058-4e73-4fd6-8aad-a7923655564a" valueTypeId="639e2502-7f4c-411e-a0b9-abb3a46c032a"/>
+    <refType typeId="bc36772f-5fe6-41c8-a650-adb93ea5567f" valueTypeId="ac1acf72-23c4-435e-b43f-1e2204b3dee3"/>
+    <selectionType typeId="f3ebe18b-0068-499b-97ee-78b9847a3185" valueTypeId="77f20f4f-5d33-40db-83c1-b2b90b6d0d17"/>
+    <listType typeId="b990a4e1-238f-40f3-b6b8-507ee6f00b9a" valueTypeId="ac63c105-8af1-4e82-9036-c65cdf57c4f8"/>
+    <managerType typeId="9941a5b8-5623-4290-91ea-54bd532d4398" valueTypeId="dd41e692-61d0-4d8a-8849-f509b5275865"/>
+  </producedTypes>
+  <name>ВидыПрактик</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+  <attributes uuid="4737b751-8072-4890-b33a-ccfe121ebf35" extendedConfigurationObject="10ae6f61-81c0-4687-8ee8-31b790a33971">
+    <name>ПолноеНаименование</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers/>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="7adb59d9-dcef-4f6b-a0f5-c87f432c194c" extendedConfigurationObject="e797edde-72b7-43f7-9269-ab6e6703b365">
+    <name>СокращенноеНаименование</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="b56ce9e7-d6e8-4f6c-af27-a57369e75bc7" extendedConfigurationObject="86846208-231b-43cf-9e13-2546eefc5f81">
+    <name>ТипПрактики</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>EnumRef.ТипыПрактик</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Catalog>

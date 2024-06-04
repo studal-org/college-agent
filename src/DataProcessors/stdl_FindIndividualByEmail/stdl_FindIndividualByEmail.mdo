@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1793d3f5-72ff-4606-967b-516a2eac2ba6">
+  <producedTypes>
+    <objectType typeId="09c65826-9551-4e99-a1cf-1a50d8c92f3e" valueTypeId="073cbf0d-1aed-4713-bd4e-1db9763bbac3"/>
+    <managerType typeId="83d7ddb3-db9e-4f62-841b-f054389a5cb0" valueTypeId="2954f1de-1b8e-4511-be85-1f276d3438cb"/>
+  </producedTypes>
+  <name>stdl_FindIndividualByEmail</name>
+  <synonym>
+    <key>ru</key>
+    <value>Find Individual by email</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:DataProcessor>

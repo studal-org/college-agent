@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3d379a4e-8d57-49c0-9081-cb8c5fa91a70">
+  <producedTypes>
+    <objectType typeId="b147478f-bd87-4112-8058-bba52b06385e" valueTypeId="4ffb9d32-cf7b-44bf-97d0-0dea8eb5acbc"/>
+    <managerType typeId="67e7f95b-a134-4fc4-94a3-b6fa224e1f1c" valueTypeId="bcea4525-995a-4762-8900-90e04d64e3f8"/>
+  </producedTypes>
+  <name>stdl_ReadWorkTypeById</name>
+  <synonym>
+    <key>ru</key>
+    <value>Read WorkType by ID</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:DataProcessor>

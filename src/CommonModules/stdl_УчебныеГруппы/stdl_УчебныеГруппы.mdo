@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d0241aa5-1ffa-45a1-b323-3f5fbadb53bb">
+  <name>stdl_УчебныеГруппы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учебные группы</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

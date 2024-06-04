@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="a55df358-f383-4a17-9abe-5fb966047a57" extendedConfigurationObject="3f2226f7-5cfa-465d-9db0-52157ec4d014">
+  <producedTypes>
+    <objectType typeId="1cfd8bd3-f89e-4ab7-ad2e-9ef4390898f5" valueTypeId="998d5f16-170c-4074-a2bf-d81352dd772e"/>
+    <refType typeId="861708fa-1dac-4a17-af6d-743d9fa6a708" valueTypeId="3ae5859e-a330-4077-9ba9-7a34d51795aa"/>
+    <selectionType typeId="40bdd74a-4400-4096-a534-ea5bc6b33f7e" valueTypeId="849d900f-30a6-4612-b749-f0257077b9bb"/>
+    <listType typeId="19b88c74-341d-41d2-8d57-1e305e8111b9" valueTypeId="11e491a7-ab49-4a84-a93b-f433248e98ce"/>
+    <managerType typeId="b1b3f05c-3f00-4805-86fb-54a927ff0626" valueTypeId="c35bbf96-d86a-411d-9020-069cb42b876b"/>
+  </producedTypes>
+  <name>ДополнительноеЗанятие</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+  <attributes uuid="6a64b207-f04b-4886-bf31-3c97a0a343e3" extendedConfigurationObject="8052169d-c75c-4857-a879-2e0446c141df">
+    <name>Дисциплина</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Дисциплины</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <tabularSections uuid="1d6dfb24-d948-4e34-9ed8-835533231939" extendedConfigurationObject="ecbcb0dc-1cad-47d1-b622-1e7c8e5487d2">
+    <producedTypes>
+      <objectType typeId="e4b4de03-a896-4906-a074-92d8cc9b3d5d" valueTypeId="1d2bbc34-6608-4b96-ad1f-d017dbe6634a"/>
+      <rowType typeId="d5632fa8-c94f-48ac-860a-278d8fec3bce" valueTypeId="3f28d32f-a1db-4e94-a9c0-12a71568711a"/>
+    </producedTypes>
+    <name>Студенты</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+    <attributes uuid="923bc5cc-6fd1-4816-a8de-f417618bd169" extendedConfigurationObject="acb6ffe7-b75f-4a79-8b8f-3fdece3958f8">
+      <name>Студент</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>CatalogRef.Студенты</type>
+          </types>
+        </typeExtension>
+      </extension>
+    </attributes>
+    <attributes uuid="a5d1dc62-a673-49f9-94b6-bd53a03bc87f" extendedConfigurationObject="5b1addc6-97ee-4a15-9c0d-621a3216bd74">
+      <name>Явка</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>Boolean</type>
+          </types>
+        </typeExtension>
+      </extension>
+    </attributes>
+    <attributes uuid="4e3e8aab-dfd2-4585-ac1c-7b6e68514822" extendedConfigurationObject="8fd3ad20-0a23-4b17-a880-79dc3dfe556b">
+      <name>Оценка</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>Number</type>
+          </types>
+          <numberQualifiers>
+            <precision>3</precision>
+            <nonNegative>true</nonNegative>
+          </numberQualifiers>
+        </typeExtension>
+      </extension>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="188b2713-32ef-4ca4-be4d-581233b749dc" extendedConfigurationObject="d0106f3a-8490-4277-a278-75c318ec252c">
+  <producedTypes>
+    <objectType typeId="81cce568-5d37-454d-8edd-4c5c59c93cec" valueTypeId="aadba180-107f-488d-9bab-b46144f89cfb"/>
+    <refType typeId="482f988c-1787-4801-88f8-dddc9121adb6" valueTypeId="d9da7a18-c3a2-4e42-8fc6-5903493c3ca7"/>
+    <selectionType typeId="b7cf6114-cb15-42ec-83bd-14d1f90e77db" valueTypeId="1c7ffe0c-ab49-4365-847e-081748f5aaba"/>
+    <listType typeId="bb18840e-b385-481f-b1a4-459c3b609ed4" valueTypeId="e18a9278-514a-4734-8820-33cee5d2647c"/>
+    <managerType typeId="caabc7ae-353b-48f7-85db-f1084b5b2c4c" valueTypeId="84fd432b-c5c4-410e-a77d-4c42472577f0"/>
+  </producedTypes>
+  <name>ГруппыДоступа</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <codeLength>Checked</codeLength>
+    <codeAllowedLength>Checked</codeAllowedLength>
+    <descriptionLength>Checked</descriptionLength>
+    <codeType>Checked</codeType>
+    <predefined>Checked</predefined>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <predefined>
+    <items id="3c39be2b-5978-46ca-b578-6f0d29e61822">
+      <name>Администраторы</name>
+      <description>Администраторы</description>
+      <extension xsi:type="mdclassExtension:PredefinedItemExtension">
+        <state>AdoptedCheck</state>
+      </extension>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+  </predefined>
+  <tabularSections uuid="1ab5799b-05ed-4502-a789-a434491fba93" extendedConfigurationObject="0132e564-2cd3-4930-8962-1068532f4be4">
+    <producedTypes>
+      <objectType typeId="e1b74920-f19f-4dcd-b748-0f45870dd962" valueTypeId="1c3f6ae9-3825-4ca1-a139-2492db5b9ba8"/>
+      <rowType typeId="a6f87909-22ad-4437-ad0f-162557c37276" valueTypeId="81a7f030-1fb0-45c5-958f-4e57fe6d991b"/>
+    </producedTypes>
+    <name>Пользователи</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+    <attributes uuid="066ceda4-8ce0-4c21-8ff0-d6ea0e08b055" extendedConfigurationObject="57d0f9b0-18d0-48ba-9f3c-d106f66ac602">
+      <name>Пользователь</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>AnyRef</type>
+          </types>
+        </typeExtension>
+      </extension>
+    </attributes>
+  </tabularSections>
+</mdclass:Catalog>

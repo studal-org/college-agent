@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7d2e1fa8-5789-4f38-9a29-e22cca6f347e">
+  <name>оас_Спецификация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оас спецификация</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>

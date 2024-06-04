@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1e6f22d0-f930-4618-8f2b-53a9bfb47366">
+  <name>оас_LICENSE</name>
+  <synonym>
+    <key></key>
+    <value>Оас LICENSE</value>
+  </synonym>
+  <templateType>TextDocument</templateType>
+</mdclass:CommonTemplate>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8e6daca7-aba2-4c5d-a756-5a609dcb9cdf">
+  <producedTypes>
+    <objectType typeId="933bc58b-06ef-4e36-8f60-7cb8d48eaf78" valueTypeId="dad6c0eb-11ea-422d-b2ab-6b10ac36b237"/>
+    <managerType typeId="600354fa-e105-452c-ac9a-8f3a1bbe7639" valueTypeId="40635529-a3dd-497e-a95c-c17ac654e666"/>
+  </producedTypes>
+  <name>stdl_FindScheduleForDateByScheduleDateForGroupId</name>
+  <synonym>
+    <key>ru</key>
+    <value>Find ScheduleForDate by scheduleDate for groupId</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:DataProcessor>

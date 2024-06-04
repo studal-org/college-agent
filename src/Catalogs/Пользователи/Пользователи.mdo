@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="4f10afb2-aa6d-40c7-8a5d-18fd8c2f272a" extendedConfigurationObject="1f81a27d-1e6d-4179-bbff-e12b8cd510df">
+  <producedTypes>
+    <objectType typeId="192f50d9-7ede-4939-b661-64a227352111" valueTypeId="52a57277-f550-4688-8d2e-5c1e8b762464"/>
+    <refType typeId="a923670b-3f2c-4954-aaea-f7ed2a800bc2" valueTypeId="308520ea-82f3-4323-9e21-d27bbf59fb86"/>
+    <selectionType typeId="24a8a2c8-1782-489a-8652-6d75efb21c4c" valueTypeId="bf7b739f-a083-4750-b3dd-e28728b3f078"/>
+    <listType typeId="a9449fc6-bfbe-4721-aec8-97ed9f023223" valueTypeId="839e3fc8-9933-4c3b-9b22-933627365c83"/>
+    <managerType typeId="26898ef6-e196-4d27-b102-77ef147b1dc5" valueTypeId="6a2c6d18-a15c-4d45-a9be-b1e7c1ef75d0"/>
+  </producedTypes>
+  <name>Пользователи</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+  <attributes uuid="fac2c401-4eb1-44fc-b718-69eb250cdfa2" extendedConfigurationObject="ae6d0e12-8857-476c-b4b2-f03295cbed3e">
+    <name>Недействителен</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="8229c3af-6bf1-4fe3-b4d9-f7b54f4b2649" extendedConfigurationObject="d7cfc87f-ac09-44aa-91d9-6511c408c5cb">
+    <name>ФизическоеЛицо</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.ФизическоеЛицо</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Catalog>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="32fcfb44-4b8e-4dc5-b5c1-ec9e2097a47e">
+  <producedTypes>
+    <objectType typeId="07774eef-8e63-43de-a625-861984da1d5f" valueTypeId="d7f39028-b5ac-408f-b29a-355067089bf7"/>
+    <managerType typeId="ecc5fd71-5ff9-47fe-80f3-41a31e775c92" valueTypeId="87c47e79-3336-46c1-9d21-7e8e124989fc"/>
+  </producedTypes>
+  <name>stdl_ReadDefaultPeriodsSchedule</name>
+  <synonym>
+    <key>ru</key>
+    <value>Read default PeriodsSchedule</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:DataProcessor>

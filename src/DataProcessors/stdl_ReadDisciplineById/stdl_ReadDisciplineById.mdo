@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="815e2c49-9dc6-4b43-958b-102f913b8a6f">
+  <producedTypes>
+    <objectType typeId="384a7d8b-262e-46b8-800d-b0f13b2bdda7" valueTypeId="3f0837db-cb51-43df-9316-ab6903d39058"/>
+    <managerType typeId="3caf32ed-d0ef-41e8-9d1e-48dc958fcad1" valueTypeId="a8139504-9834-4ab5-af93-676b919c7b0e"/>
+  </producedTypes>
+  <name>stdl_ReadDisciplineById</name>
+  <synonym>
+    <key>ru</key>
+    <value>Read discipline by id</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:DataProcessor>

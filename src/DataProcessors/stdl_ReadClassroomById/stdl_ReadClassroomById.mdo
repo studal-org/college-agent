@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8ee0d26e-4000-46b8-9d68-4f9375201640">
+  <producedTypes>
+    <objectType typeId="d75d541c-4da8-4948-a2d3-773ce7fb30ab" valueTypeId="de436bf2-f6f2-4962-bee3-7d73591eca5d"/>
+    <managerType typeId="1e41086b-f349-4671-817b-4018be99ce0d" valueTypeId="d8e17734-5ece-4054-822d-a34477e9b7a2"/>
+  </producedTypes>
+  <name>stdl_ReadClassroomById</name>
+  <synonym>
+    <key>ru</key>
+    <value>Read Classroom by ID</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:DataProcessor>

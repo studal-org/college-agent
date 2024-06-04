@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="8a03995d-25c6-4331-9150-1bf053a54850">
+  <name>Studal</name>
+  <synonym>
+    <key>ru</key>
+    <value>Studal</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <sessionModule>Extended</sessionModule>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="288ae4b4-edbb-4964-913d-52f86feb7ef7"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="3887af8a-96ce-400b-b76c-b916ba8fab0b"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="bcf8d0ad-4138-43c9-ad64-694c36361322"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="6cc193e0-f658-4df8-89e4-f97602254414"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="73ab5cd1-652c-4b99-a5d2-9638657ed799"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="b727b956-ea98-4d80-a8e1-141d53893e25"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="e093ab9e-77c1-4e76-95e8-a883fd00c4c3"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>stdl_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.9</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>Customization</configurationExtensionPurpose>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor>Krynin V.I. &lt;shmalevoz@gmail.com></vendor>
+  <version>0.2.20</version>
+  <languages uuid="552120f5-39e5-4826-92ef-b9b7f93b76cf">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.оас_СервисыПоСпецификациям</subsystems>
+  <commonTemplates>CommonTemplate.оас_LICENSE</commonTemplates>
+  <commonTemplates>CommonTemplate.оас_rapidoc_min_js</commonTemplates>
+  <commonModules>CommonModule.оас_ВстроенныйЯзык</commonModules>
+  <commonModules>CommonModule.оас_Контекст</commonModules>
+  <commonModules>CommonModule.оас_МетодСловарь</commonModules>
+  <commonModules>CommonModule.оас_Модуль</commonModules>
+  <commonModules>CommonModule.оас_МодульПовтИсп</commonModules>
+  <commonModules>CommonModule.оас_Настройка</commonModules>
+  <commonModules>CommonModule.оас_НастройкаПовтИсп</commonModules>
+  <commonModules>CommonModule.оас_НастройкаСвойство</commonModules>
+  <commonModules>CommonModule.оас_НастройкаХранилище</commonModules>
+  <commonModules>CommonModule.оас_Параметр</commonModules>
+  <commonModules>CommonModule.оас_ПараметрРазмещение</commonModules>
+  <commonModules>CommonModule.оас_Подсистема</commonModules>
+  <commonModules>CommonModule.оас_ПодсистемаТексты</commonModules>
+  <commonModules>CommonModule.оас_Ресурс</commonModules>
+  <commonModules>CommonModule.оас_Сервис</commonModules>
+  <commonModules>CommonModule.оас_СервисПовтИсп</commonModules>
+  <commonModules>CommonModule.оас_Спецификация</commonModules>
+  <commonModules>CommonModule.оас_Справка</commonModules>
+  <commonModules>CommonModule.оас_СправкаАдаптер</commonModules>
+  <commonModules>CommonModule.оас_Тело</commonModules>
+  <commonModules>CommonModule.оас_Тип</commonModules>
+  <commonModules>CommonModule.оас_Схема</commonModules>
+  <commonModules>CommonModule.оас_ТипыДанных</commonModules>
+  <commonModules>CommonModule.оас_ТипыДанных_String</commonModules>
+  <commonModules>CommonModule.оас_Ответ</commonModules>
+  <commonModules>CommonModule.оас_Спецификация_1</commonModules>
+  <commonModules>CommonModule.оас_Утилиты_КлиентСервер</commonModules>
+  <commonModules>CommonModule.оас_Шаблон</commonModules>
+  <commonModules>CommonModule.оас_Шаблон_Параметры</commonModules>
+  <commonModules>CommonModule.stdl_JSONКлиентСервер</commonModules>
+  <commonModules>CommonModule.оас_УтилитыОбработчика</commonModules>
+  <commonModules>CommonModule.stdl_Модели</commonModules>
+  <commonModules>CommonModule.stdl_Студенты</commonModules>
+  <commonModules>CommonModule.stdl_Ошибки</commonModules>
+  <commonModules>CommonModule.stdl_ФизическиеЛица</commonModules>
+  <commonModules>CommonModule.stdl_Администраторы</commonModules>
+  <commonModules>CommonModule.stdl_Дисциплины</commonModules>
+  <commonModules>CommonModule.stdl_Утилиты</commonModules>
+  <commonModules>CommonModule.stdl_ВидыКонтроля</commonModules>
+  <commonModules>CommonModule.stdl_ВидыНагрузки</commonModules>
+  <commonModules>CommonModule.stdl_ВидыПрактик</commonModules>
+  <commonModules>CommonModule.stdl_УчебныеГруппы</commonModules>
+  <commonModules>CommonModule.stdl_РасписаниеНаДату</commonModules>
+  <commonModules>CommonModule.stdl_СоответствияНаименований</commonModules>
+  <commonModules>CommonModule.stdl_РасписанияЗвонков</commonModules>
+  <commonModules>CommonModule.stdl_Аудитории</commonModules>
+  <commonModules>CommonModule.stdl_Сотрудники</commonModules>
+  <httpServices>HTTPService.stdl_API</httpServices>
+  <definedTypes>DefinedType.ФизическоеЛицо</definedTypes>
+  <catalogs>Catalog.РасписанияЗвонков</catalogs>
+  <catalogs>Catalog.Студенты</catalogs>
+  <catalogs>Catalog.ФизическиеЛица</catalogs>
+  <catalogs>Catalog.ВидыКонтактнойИнформации</catalogs>
+  <catalogs>Catalog.УчебныеГруппы</catalogs>
+  <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.ГруппыДоступа</catalogs>
+  <catalogs>Catalog.ВидыКонтроля</catalogs>
+  <catalogs>Catalog.ВидыПрактик</catalogs>
+  <catalogs>Catalog.Дисциплины</catalogs>
+  <catalogs>Catalog.ВидыНагрузки</catalogs>
+  <catalogs>Catalog.ТипыОценок</catalogs>
+  <catalogs>Catalog.Сотрудники</catalogs>
+  <catalogs>Catalog.Аудитории</catalogs>
+  <documents>Document.Ведомость</documents>
+  <documents>Document.НаправлениеНаПересдачу</documents>
+  <documents>Document.ПротоколГАК</documents>
+  <documents>Document.ОтчетПоПрактике</documents>
+  <documents>Document.АкадемическаяСправкаВходящая</documents>
+  <documents>Document.ДополнительноеЗанятие</documents>
+  <documents>Document.Занятие</documents>
+  <documents>Document.РасписаниеНаДату</documents>
+  <enums>Enum.СтатусыСтудентов</enums>
+  <enums>Enum.ТипыРабот</enums>
+  <enums>Enum.ТипыПрактик</enums>
+  <dataProcessors>DataProcessor.оас_АдаптерСправка</dataProcessors>
+  <dataProcessors>DataProcessor.оас_НастройкиХранилищеСистемныхНастроек</dataProcessors>
+  <dataProcessors>DataProcessor.оас_ОбработчикШаблон</dataProcessors>
+  <dataProcessors>DataProcessor.оас_СобытияОбработкиЗапроса</dataProcessors>
+  <dataProcessors>DataProcessor.оас_УправлениеСервисами</dataProcessors>
+  <dataProcessors>DataProcessor.stdl_ReadPeriodsScheduleById</dataProcessors>
+  <dataProcessors>DataProcessor.stdl_FindIndividualByEmail</dataProcessors>
+  <dataProcessors>DataProcessor.stdl_ReadIndividualById</dataProcessors>
+  <dataProcessors>DataProcessor.stdl_ReadStudentByIndividualId</dataProcessors>
+  <dataProcessors>DataProcessor.stdl_ReadStudentPerformanceByStudentIdByPeriod</dataProcessors>
+  <dataProcessors>DataProcessor.stdl_ReadAdministratorByIndividualId</dataProcessors>
+  <dataProcessors>DataProcessor.stdl_ReadStudentById</dataProcessors>
+  <dataProcessors>DataProcessor.stdl_ReadDisciplineById</dataProcessors>
+  <dataProcessors>DataProcessor.stdl_ReadControlTypeById</dataProcessors>
+  <dataProcessors>DataProcessor.stdl_ReadWorkTypeById</dataProcessors>
+  <dataProcessors>DataProcessor.stdl_ReadPracticeKindById</dataProcessors>
+  <dataProcessors>DataProcessor.stdl_FindScheduleForDateByScheduleDateForGroupId</dataProcessors>
+  <dataProcessors>DataProcessor.stdl_ReadDefaultPeriodsSchedule</dataProcessors>
+  <dataProcessors>DataProcessor.stdl_ReadClassroomById</dataProcessors>
+  <dataProcessors>DataProcessor.stdl_ReadEmployeeById</dataProcessors>
+  <informationRegisters>InformationRegister.ДвижениеКонтингента</informationRegisters>
+  <informationRegisters>InformationRegister.ОценкиСтудентов</informationRegisters>
+  <informationRegisters>InformationRegister.ФИОФизЛиц</informationRegisters>
+</mdclass:Configuration>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="e0ae5f52-33ea-4a89-9e86-dfb0bdaa7ee9" extendedConfigurationObject="3ea22402-1fca-4786-8321-7858d8078317">
+  <producedTypes>
+    <objectType typeId="2b425f27-59c0-4fbf-8cda-59a14121cb4a" valueTypeId="c9de8c6d-24e6-41fd-9657-24156fd867af"/>
+    <refType typeId="3b9ea5c4-3186-417c-b2d7-93f01274afff" valueTypeId="187d85a0-0ffe-4d50-b255-2f4fb359369a"/>
+    <selectionType typeId="25b13b03-07eb-4cd7-80d8-00f123abbce3" valueTypeId="e57de66a-8ea9-4d6b-ae92-c67e4efd5bff"/>
+    <listType typeId="b0cab918-2552-4f09-be81-b569e13307ba" valueTypeId="f099e03a-71dc-460e-adc4-0eb6b658220c"/>
+    <managerType typeId="5bb16750-d8a8-42ed-afc2-adf89f9b6ad8" valueTypeId="f31c3f68-1af7-44d4-93be-9f81f1e47a63"/>
+  </producedTypes>
+  <name>ВидыКонтактнойИнформации</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <codeLength>Checked</codeLength>
+    <codeAllowedLength>Checked</codeAllowedLength>
+    <descriptionLength>Checked</descriptionLength>
+    <codeType>Checked</codeType>
+    <predefined>Checked</predefined>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <predefined>
+    <items id="8041fcc8-c8fc-4c59-baae-5fcf321cfd42">
+      <name>СправочникФизическиеЛица</name>
+      <description>Контактная информация справочника &quot;Физические лица&quot;</description>
+      <extension xsi:type="mdclassExtension:PredefinedItemExtension">
+        <state>AdoptedCheck</state>
+      </extension>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="8cbf99d0-2c56-4f17-9f23-4cdc87edb061">
+        <name>Email</name>
+        <description>Email</description>
+        <extension xsi:type="mdclassExtension:PredefinedItemExtension">
+          <state>AdoptedCheck</state>
+        </extension>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+    </items>
+  </predefined>
+</mdclass:Catalog>

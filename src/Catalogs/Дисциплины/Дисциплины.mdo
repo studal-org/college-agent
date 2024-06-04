@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="9eb7728f-008c-4813-9222-69166c3162c3" extendedConfigurationObject="1875e419-ae3c-4bc3-8d44-f97033bd5814">
+  <producedTypes>
+    <objectType typeId="12aab7fb-a411-4658-a373-8c49406eb4d2" valueTypeId="d9dea7f8-4bb1-4582-89f3-1623d8fbab24"/>
+    <refType typeId="29d298cb-d5b2-40ac-8b7f-6862bea46cfc" valueTypeId="a0143450-f3ab-46a4-9faf-98218bbfd3af"/>
+    <selectionType typeId="d18d020c-b119-4191-a741-8da0bf3ac6f4" valueTypeId="70609685-ee18-4df4-ac79-986f2d97bd1b"/>
+    <listType typeId="303d47cf-39c3-4998-9bf7-3f10d4d8c886" valueTypeId="ff6b7001-5221-42cb-9c62-8de1d89ececc"/>
+    <managerType typeId="e0feb8ac-117e-4ae2-aaf1-817a5f6d753a" valueTypeId="b0853793-1441-40db-923b-e692a826d17c"/>
+  </producedTypes>
+  <name>Дисциплины</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+  <attributes uuid="529f552c-c02b-4d20-af0c-805e81822c20" extendedConfigurationObject="19022959-d052-487a-8eec-7c3ca99ed83f">
+    <name>ПолноеНаименование</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers/>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="e85166e8-d810-4ac8-9af2-9f944acdf454" extendedConfigurationObject="3e37dc54-4e07-4013-bc09-3752c502a26c">
+    <name>СокращенноеНаименование</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Catalog>

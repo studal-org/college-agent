@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="b678d2f1-7395-437d-aaec-c4ad92a4ba0e" extendedConfigurationObject="a7277c50-699c-4313-9988-188140aad963">
+  <producedTypes>
+    <objectType typeId="94ba0f24-ea88-4f5f-8aef-0ddbd3e051cb" valueTypeId="722aed5b-67fc-4888-bd89-8c66cff6c4ea"/>
+    <refType typeId="58a81173-879f-4bdb-aa08-65dd1f7cd894" valueTypeId="4dc144aa-ee38-4ee1-822f-6965aef579b9"/>
+    <selectionType typeId="d874b755-6ada-46eb-97df-a7a932963ff8" valueTypeId="f92ba96d-b365-4376-a13e-7afa6981ba1b"/>
+    <listType typeId="2ece7148-a7d6-48ae-80fd-ac0cf0e02218" valueTypeId="b05ac30f-0131-4533-af0b-57e896040b04"/>
+    <managerType typeId="4d740424-cec3-40ee-9b5d-e9d6f20f2fa2" valueTypeId="81bfdd63-0835-4c7f-b111-ecbad903dbab"/>
+  </producedTypes>
+  <name>Аудитории</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:Catalog>

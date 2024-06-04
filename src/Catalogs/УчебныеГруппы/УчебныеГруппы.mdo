@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="b62709fa-b5a6-47d1-8c2e-852ca62e97cb" extendedConfigurationObject="56daf9a8-77d9-4c05-b0bf-0483c69f3af7">
+  <producedTypes>
+    <objectType typeId="704cbbb1-c4f7-4189-b10c-9e42f644c307" valueTypeId="f1c3a211-66bc-4cd4-922c-93ed8046cd75"/>
+    <refType typeId="b716dbaf-c5be-4aaf-ac44-ee9dda673bc8" valueTypeId="6b541d1a-9968-4ccf-8161-975a4dfdb78a"/>
+    <selectionType typeId="f648710c-d008-4d79-a472-075081f7a24e" valueTypeId="5afc61cc-b4a8-413d-bf58-85082929c874"/>
+    <listType typeId="3adbbfda-e1c9-41b2-a237-f1c879cf92b9" valueTypeId="a7c53db2-6130-4696-8408-89404c69d0b0"/>
+    <managerType typeId="a02e08f8-fdcf-451e-9ab8-7e881e267084" valueTypeId="c5829b5b-4d40-4b78-a078-a39410dc65e7"/>
+  </producedTypes>
+  <name>УчебныеГруппы</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:Catalog>

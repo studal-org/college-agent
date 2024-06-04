@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="220d3701-0e8c-4d18-9566-36e7d322afe1" extendedConfigurationObject="9021bb56-cc13-4e60-9ed5-96d6e7444a6c">
+  <producedTypes>
+    <selectionType typeId="97acc0a5-7bfe-4cc4-b424-c091e4bd6c7f" valueTypeId="681601a1-237e-4d4a-8739-69e4f3fd68b6"/>
+    <listType typeId="8a911e61-7b94-4a25-9f96-568d4d8d7928" valueTypeId="360a5d61-11c4-4f34-95ab-bc996b8ba073"/>
+    <managerType typeId="3d4cd93c-5a1d-4a6a-ae7d-703c120e96bf" valueTypeId="4dca589f-d1a6-406a-b756-29b6653a4ec0"/>
+    <recordSetType typeId="557dd559-6a21-45c8-ac14-ecebddbca4b2" valueTypeId="28d9dea1-aa2d-4112-ba11-6f68f3500767"/>
+    <recordKeyType typeId="b2252e75-b96d-4fda-a87c-dc2eb499713b" valueTypeId="8cc50fdd-9ec1-4c93-8ce3-214abf153d0d"/>
+    <recordType typeId="bccbb9e6-0d42-4c2c-a3d7-b7d2bd17ecb5" valueTypeId="8e954f7e-f954-46d6-9c5d-e2479c5c713b"/>
+    <recordManagerType typeId="bae3de5b-721b-44ca-965d-a7c765e1a056" valueTypeId="b3ed51c4-04e1-474d-b532-0c99967986ff"/>
+  </producedTypes>
+  <name>ФИОФизЛиц</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <resources uuid="4b9fb151-c2a6-46da-8ffc-f0cd0384cbc8" extendedConfigurationObject="d92063a8-2702-4ff9-a990-b30b2e64b4ef">
+    <name>Фамилия</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+  </resources>
+  <resources uuid="b4941865-671e-4b79-a845-1874c0344e77" extendedConfigurationObject="7f2e9b68-21ea-4ec4-ae89-81a0132ecc41">
+    <name>Имя</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+  </resources>
+  <resources uuid="7dc0b543-d00f-4488-a037-24dbd76fe3b5" extendedConfigurationObject="13241ff2-b962-47d3-80d5-c655c88272f6">
+    <name>Отчество</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+  </resources>
+  <dimensions uuid="368d635e-04c0-4fee-a65d-0e5ef098ebc0" extendedConfigurationObject="5bb18f06-25d3-421f-af4c-abdd14c107a3">
+    <name>ФизЛицо</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.ФизическиеЛица</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </dimensions>
+</mdclass:InformationRegister>

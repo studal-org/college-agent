@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="dc44a2ab-0c50-4fa4-8961-4a2f120cba09" extendedConfigurationObject="cbbaeb20-dd8d-4025-8b41-ef9f9bf6900d">
+  <producedTypes>
+    <objectType typeId="c136efc9-ec21-4a11-bcc1-7092fb29ebfb" valueTypeId="675a06e0-327f-4b28-b008-ade39013dd38"/>
+    <refType typeId="3cc2f080-84a0-465e-9eee-bc247b5d0d32" valueTypeId="d9efd921-20b1-437b-a1c4-8748e52abe0a"/>
+    <selectionType typeId="50db8988-5ab8-48ed-aa18-b8d38c022826" valueTypeId="9cc5fde1-c17d-462b-89c0-4e6c60e573d9"/>
+    <listType typeId="7d32d30b-f0b3-49e8-99d8-aff33f99694d" valueTypeId="3f898971-0d67-4bb2-8e48-ed7b98b7f5bb"/>
+    <managerType typeId="8c7070f9-edbb-4f73-9a6b-1cbef7c01165" valueTypeId="9770f567-45cc-47c6-b570-92a1d5ed52ff"/>
+  </producedTypes>
+  <name>ВидыКонтроля</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+  <attributes uuid="cb2731b1-b139-4e10-964b-b52972f227a1" extendedConfigurationObject="71cde903-c984-4d18-98e6-c9fb74206176">
+    <name>ТипОценки</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.ТипыОценок</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Catalog>

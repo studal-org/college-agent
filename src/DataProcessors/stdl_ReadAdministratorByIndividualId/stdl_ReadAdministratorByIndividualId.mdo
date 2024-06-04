@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="71d186a8-2b79-4417-97d2-eab93c018026">
+  <producedTypes>
+    <objectType typeId="11cd556d-dd6e-4016-825b-1db2d0f707fa" valueTypeId="233312a5-2db1-4bf8-8200-35fe1398aa1e"/>
+    <managerType typeId="3080015f-fc92-4551-8f5c-4d16187a2c67" valueTypeId="a6fd755f-a7c1-4324-8b64-83b01997c0b5"/>
+  </producedTypes>
+  <name>stdl_ReadAdministratorByIndividualId</name>
+  <synonym>
+    <key>ru</key>
+    <value>Read administrator by individual id</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:DataProcessor>

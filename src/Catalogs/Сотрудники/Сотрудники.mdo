@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="226783fc-accb-4c00-ba75-002ed86ecfb8" extendedConfigurationObject="d6239f70-34ae-4e25-b7a0-f15f7815d671">
+  <producedTypes>
+    <objectType typeId="96b0d3de-aeb3-4fc7-9970-8143f2a3a4be" valueTypeId="5ce9b871-cb9b-4549-87c4-dee50f0fd7f0"/>
+    <refType typeId="8c47e4a5-fa81-4a91-a221-0eca4377ad88" valueTypeId="cb69609c-eef8-4604-b9e6-08726eae4166"/>
+    <selectionType typeId="6ac048e1-de21-48d7-bcdd-17b94747be93" valueTypeId="8c05858e-21f5-48a3-9c21-5ea3099e25fd"/>
+    <listType typeId="7c8e0a4b-f59b-4ae1-b5fa-f76c48bdc7d8" valueTypeId="9a1283be-03a0-454d-8444-7ed42c59e6c1"/>
+    <managerType typeId="71375ac6-5152-42a1-adef-ed458c4ada2a" valueTypeId="474599b9-fe34-4d33-b2d9-7c72f372097e"/>
+  </producedTypes>
+  <name>Сотрудники</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+  <attributes uuid="40ffbe6a-8fc7-450d-993f-7a0b8696bb24" extendedConfigurationObject="463b23d7-b070-4eba-b2ba-51fca91c0009">
+    <name>Физлицо</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.ФизическиеЛица</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Catalog>

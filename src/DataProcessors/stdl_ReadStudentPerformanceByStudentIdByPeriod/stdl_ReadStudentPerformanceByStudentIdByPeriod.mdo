@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cc0ef6c3-e0f3-4d16-a167-6aa81e4c039d">
+  <producedTypes>
+    <objectType typeId="464992b9-105f-4849-af0a-f2326bd77e59" valueTypeId="adab0270-e682-4cf5-9dac-011cd65a88ba"/>
+    <managerType typeId="838dcaa5-a735-46cf-8d30-572825999d6e" valueTypeId="d45992b6-5ecc-44bc-a5d6-b8c9ebc2d48e"/>
+  </producedTypes>
+  <name>stdl_ReadStudentPerformanceByStudentIdByPeriod</name>
+  <synonym>
+    <key>ru</key>
+    <value>Read Student Performance by Student ID by Period</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:DataProcessor>
