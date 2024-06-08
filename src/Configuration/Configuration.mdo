@@ -8,6 +8,7 @@
   <objectBelonging>Adopted</objectBelonging>
   <extension xsi:type="mdclassExtension:ConfigurationExtension">
     <sessionModule>Extended</sessionModule>
+    <compatibilityMode>Checked</compatibilityMode>
   </extension>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="288ae4b4-edbb-4964-913d-52f86feb7ef7"/>
   <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="3887af8a-96ce-400b-b76c-b916ba8fab0b"/>
@@ -23,6 +24,7 @@
   <scriptVariant>Russian</scriptVariant>
   <vendor>Krynin V.I. &lt;shmalevoz@gmail.com></vendor>
   <version>0.2.20</version>
+  <compatibilityMode>8.3.14</compatibilityMode>
   <languages uuid="552120f5-39e5-4826-92ef-b9b7f93b76cf">
     <name>Русский</name>
     <objectBelonging>Adopted</objectBelonging>
