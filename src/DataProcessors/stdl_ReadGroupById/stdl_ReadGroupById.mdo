@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="887761e0-344a-42f0-875a-a61d29c88912">
+  <producedTypes>
+    <objectType typeId="8a9a7d29-b3ea-4f1e-bf17-763e34f0ab31" valueTypeId="83f80926-2f3d-4d3b-80f3-fa3f91dd0fb4"/>
+    <managerType typeId="00bf8a16-4636-463c-b8e7-e2a39c53a7c1" valueTypeId="6a9379c0-c570-4c7d-8001-5cd72da267e6"/>
+  </producedTypes>
+  <name>stdl_ReadGroupById</name>
+  <synonym>
+    <key>ru</key>
+    <value>Read group by id</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:DataProcessor>

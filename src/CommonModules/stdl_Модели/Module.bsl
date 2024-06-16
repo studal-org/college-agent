@@ -219,6 +219,7 @@
 
 	Объект.Вставить("id", Ссылка.УникальныйИдентификатор());
 	//@skip-check reading-attribute-from-database
+	//@skip-check property-return-type
 	Объект.Вставить("title", Ссылка.Наименование);
 
 	Возврат Объект;
@@ -376,12 +377,9 @@
 //  	*individualId - УникальныйИдентификатор, Неопределено -
 Функция Employee(Ссылка) Экспорт
 	Объект = Новый Структура;
-
 	Объект.Вставить("id", Ссылка.УникальныйИдентификатор());
 	//@skip-check reading-attribute-from-database
 	Объект.Вставить("individualId", stdl_Утилиты.ПолучитьУИДСсылки(Ссылка.Физлицо));
-	//@skip-check reading-attribute-from-database
-
 	Возврат Объект;
 КонецФункции
 

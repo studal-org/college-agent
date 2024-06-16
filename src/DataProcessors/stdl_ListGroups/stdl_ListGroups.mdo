@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dde9a3b5-b31c-4654-bf08-befc238355d0">
+  <producedTypes>
+    <objectType typeId="02ba8c28-7aa0-4332-aedb-621f10b87bad" valueTypeId="9d511393-12e2-4cc1-bc2f-3bb3ffc460bc"/>
+    <managerType typeId="be507bef-a49d-4b50-b6ec-8abd0cf0270a" valueTypeId="3902d29b-4b00-4e3f-895f-14bd500c49a8"/>
+  </producedTypes>
+  <name>stdl_ListGroups</name>
+  <synonym>
+    <key>ru</key>
+    <value>List groups</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:DataProcessor>

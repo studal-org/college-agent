@@ -110,6 +110,7 @@
   <enums>Enum.СтатусыСтудентов</enums>
   <enums>Enum.ТипыРабот</enums>
   <enums>Enum.ТипыПрактик</enums>
+  <enums>Enum.СтатусыУчебныхГрупп</enums>
   <dataProcessors>DataProcessor.оас_АдаптерСправка</dataProcessors>
   <dataProcessors>DataProcessor.оас_НастройкиХранилищеСистемныхНастроек</dataProcessors>
   <dataProcessors>DataProcessor.оас_ОбработчикШаблон</dataProcessors>
@@ -130,6 +131,8 @@
   <dataProcessors>DataProcessor.stdl_ReadDefaultPeriodsSchedule</dataProcessors>
   <dataProcessors>DataProcessor.stdl_ReadClassroomById</dataProcessors>
   <dataProcessors>DataProcessor.stdl_ReadEmployeeById</dataProcessors>
+  <dataProcessors>DataProcessor.stdl_ListGroups</dataProcessors>
+  <dataProcessors>DataProcessor.stdl_ReadGroupById</dataProcessors>
   <informationRegisters>InformationRegister.ДвижениеКонтингента</informationRegisters>
   <informationRegisters>InformationRegister.ОценкиСтудентов</informationRegisters>
   <informationRegisters>InformationRegister.ФИОФизЛиц</informationRegisters>

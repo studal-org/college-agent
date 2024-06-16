@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="e86e352d-9544-40b2-a046-04a1625c2f9c" extendedConfigurationObject="69caa20c-d783-49e2-9db7-14324abcd2d6">
+  <producedTypes>
+    <refType typeId="ab8079cf-a734-41fd-a944-7aa79a9550cc" valueTypeId="7f7a4bd0-d564-4caa-ad3d-f60f846648c7"/>
+    <listType typeId="b8a514fc-0f8c-4ae3-a63f-c5d6bada745c" valueTypeId="1ebe0cce-e32a-4db8-8dfc-f696e32e812d"/>
+    <managerType typeId="8dfbd448-eea3-4b71-9d8d-284236926c24" valueTypeId="19bd082c-6e14-4e38-8445-198409648e47"/>
+  </producedTypes>
+  <name>СтатусыУчебныхГрупп</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+  <enumValues uuid="3881a4e4-6e4e-492d-a845-9188ee21b101" extendedConfigurationObject="1530e285-bc30-4a94-98d4-859d9eb7c97c">
+    <name>Учится</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>
