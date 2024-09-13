@@ -23,7 +23,7 @@
   <configurationExtensionPurpose>Customization</configurationExtensionPurpose>
   <scriptVariant>Russian</scriptVariant>
   <vendor>Matveev D.A. &lt;shmookoff@gmail.com></vendor>
-  <version>0.1.2</version>
+  <version>0.1.3</version>
   <compatibilityMode>8.3.14</compatibilityMode>
   <languages uuid="552120f5-39e5-4826-92ef-b9b7f93b76cf">
     <name>Русский</name>
