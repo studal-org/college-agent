@@ -27,7 +27,7 @@
       </typeExtension>
     </extension>
   </attributes>
-  <attributes uuid="e85166e8-d810-4ac8-9af2-9f944acdf454" extendedConfigurationObject="3e37dc54-4e07-4013-bc09-3752c502a26c">
+  <attributes uuid="8832dfac-271e-4c5a-8fe3-38592e5f084f" extendedConfigurationObject="3e37dc54-4e07-4013-bc09-3752c502a26c">
     <name>СокращенноеНаименование</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -38,7 +38,7 @@
           <type>String</type>
         </types>
         <stringQualifiers>
-          <length>10</length>
+          <length>20</length>
         </stringQualifiers>
       </typeExtension>
     </extension>
